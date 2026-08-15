@@ -1,0 +1,31 @@
+astrologer_id,name,specialization,experience_years,price_per_min,base_skill
+A001,Rahul,Health,3,25,0.595
+A002,Priya,General Vedic,3,22,0.486
+A003,Anjali,Career,18,25,0.682
+A004,Vikram,General Vedic,21,18,0.826
+A005,Sunita,Marriage,19,22,0.855
+A006,Deepak,Career,11,12,0.764
+A007,Meera,Family,21,25,0.714
+A008,Arjun,General Vedic,17,15,0.867
+A009,Kavita,Marriage,17,25,0.678
+A010,Rohan,Family,12,9,0.77
+A011,Neha,Relationship,23,25,0.671
+A012,Sanjay,Career,22,15,0.794
+A013,Pooja,Relationship,12,9,0.619
+A014,Amit,Health,14,22,0.809
+A015,Divya,Health,16,22,0.785
+A016,Karan,Relationship,11,25,0.734
+A017,Ritu,Career,6,22,0.747
+A018,Manoj,Finance,20,9,0.755
+A019,Shreya,Marriage,12,22,0.682
+A020,Ashok,Career,13,18,0.687
+A021,Nisha,Finance,11,22,0.836
+A022,Rajesh,Finance,2,25,0.74
+A023,Swati,Career,3,18,0.815
+A024,Vivek,Relationship,9,18,0.823
+A025,Anita,Career,24,25,0.584
+A026,Suresh,Finance,21,12,0.737
+A027,Preeti,Finance,4,18,0.739
+A028,Gopal,Career,10,15,0.775
+A029,Lata,Family,9,9,0.674
+A030,Harish,Marriage,17,18,0.664
