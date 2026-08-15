@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.7867,
+  "roc_auc": 0.8765,
+  "confusion_matrix": [
+    [
+      51,
+      27
+    ],
+    [
+      21,
+      126
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "retained",
+    "churned"
+  ],
+  "feature_importances": {
+    "engagement_score": 0.4225,
+    "consultation_frequency": 0.1384,
+    "total_spent": 0.1242,
+    "days_since_last_consultation": 0.1035,
+    "avg_session_duration": 0.0524,
+    "avg_rating_given": 0.0352,
+    "days_since_signup": 0.034,
+    "num_consultations": 0.0274,
+    "distinct_astrologers": 0.0253,
+    "spend_trend": 0.0215,
+    "num_failed_calls": 0.008,
+    "distinct_topics": 0.0074
+  },
+  "train_size": 675,
+  "test_size": 225,
+  "churn_rate_in_data": 0.6533
+}

@@ -1,0 +1,180 @@
+{
+  "generated_for": "AstroLive Retention Engine \u2014 AI Growth Dashboard",
+  "as_of_date": "2026-08-15",
+  "kpis": {
+    "total_users": 900,
+    "conversion_rate_pct": 65.6,
+    "repeat_consultation_rate_pct": 58.6,
+    "revenue_per_user": 697.0,
+    "total_revenue": 627140.0,
+    "churn_risk_users": 575,
+    "churn_risk_pct": 63.9,
+    "revenue_at_risk": 20677.0
+  },
+  "model_metrics": {
+    "accuracy": 0.7867,
+    "roc_auc": 0.8765,
+    "confusion_matrix": [
+      [
+        51,
+        27
+      ],
+      [
+        21,
+        126
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "retained",
+      "churned"
+    ],
+    "feature_importances": {
+      "engagement_score": 0.4225,
+      "consultation_frequency": 0.1384,
+      "total_spent": 0.1242,
+      "days_since_last_consultation": 0.1035,
+      "avg_session_duration": 0.0524,
+      "avg_rating_given": 0.0352,
+      "days_since_signup": 0.034,
+      "num_consultations": 0.0274,
+      "distinct_astrologers": 0.0253,
+      "spend_trend": 0.0215,
+      "num_failed_calls": 0.008,
+      "distinct_topics": 0.0074
+    },
+    "train_size": 675,
+    "test_size": 225,
+    "churn_rate_in_data": 0.6533
+  },
+  "monthly_trend": [
+    {
+      "month": "2025-12",
+      "consultations": 264
+    },
+    {
+      "month": "2026-01",
+      "consultations": 308
+    },
+    {
+      "month": "2026-02",
+      "consultations": 328
+    },
+    {
+      "month": "2026-03",
+      "consultations": 408
+    },
+    {
+      "month": "2026-04",
+      "consultations": 394
+    },
+    {
+      "month": "2026-05",
+      "consultations": 461
+    },
+    {
+      "month": "2026-06",
+      "consultations": 451
+    },
+    {
+      "month": "2026-07",
+      "consultations": 412
+    },
+    {
+      "month": "2026-08",
+      "consultations": 201
+    }
+  ],
+  "top_astrologers": [
+    {
+      "name": "Sunita",
+      "specialization": "Marriage",
+      "sessions": 145,
+      "avg_rating": 4.23,
+      "repeat_rate_pct": 22.2
+    },
+    {
+      "name": "Arjun",
+      "specialization": "General Vedic",
+      "sessions": 157,
+      "avg_rating": 4.22,
+      "repeat_rate_pct": 24.4
+    },
+    {
+      "name": "Nisha",
+      "specialization": "Finance",
+      "sessions": 152,
+      "avg_rating": 4.16,
+      "repeat_rate_pct": 27.7
+    },
+    {
+      "name": "Amit",
+      "specialization": "Health",
+      "sessions": 169,
+      "avg_rating": 4.08,
+      "repeat_rate_pct": 20.2
+    },
+    {
+      "name": "Vivek",
+      "specialization": "Relationship",
+      "sessions": 103,
+      "avg_rating": 4.08,
+      "repeat_rate_pct": 23.7
+    },
+    {
+      "name": "Swati",
+      "specialization": "Career",
+      "sessions": 126,
+      "avg_rating": 4.06,
+      "repeat_rate_pct": 19.2
+    },
+    {
+      "name": "Vikram",
+      "specialization": "General Vedic",
+      "sessions": 96,
+      "avg_rating": 4.04,
+      "repeat_rate_pct": 10.5
+    },
+    {
+      "name": "Sanjay",
+      "specialization": "Career",
+      "sessions": 137,
+      "avg_rating": 4.0,
+      "repeat_rate_pct": 32.3
+    }
+  ],
+  "topic_breakdown": [
+    {
+      "topic": "Career",
+      "count": 809
+    },
+    {
+      "topic": "Relationship",
+      "count": 636
+    },
+    {
+      "topic": "General Vedic",
+      "count": 538
+    },
+    {
+      "topic": "Marriage",
+      "count": 537
+    },
+    {
+      "topic": "Finance",
+      "count": 510
+    },
+    {
+      "topic": "Family",
+      "count": 479
+    },
+    {
+      "topic": "Health",
+      "count": 438
+    }
+  ],
+  "risk_distribution": {
+    "low": 202,
+    "medium": 123,
+    "high": 575
+  }
+}
